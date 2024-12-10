@@ -1,0 +1,98 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./picturesque-cricket-stadium-with-lush-green-field-vibrant-crowd-spectators_75778-5488\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 550px;
+    height: 300px;
+    background-color: #8d8d8df3;
+    border-radius: 15px;
+}
+
+.box-upper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+
+.box-upper img {
+    width: 20%;
+}
+
+#box-d {
+    width: 100%;
+    height: 50%;
+}
+
+#box-d p {
+    color: #373737;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 20px;
+    height: 70px;
+}
+
+#dice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#dice button {
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    border: none;
+    position: absolute;
+    bottom: -65px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+svg {
+    width: 30px;
+    fill: #373737;
+}
+
+#dice button:hover {
+    cursor: pointer;
+    background-color: #575757;
+}
+
+
+
+
+@media (max-width: 768px) {
+    #box-d{
+      font-size: 13px;
+    }
+
+    .container{
+        width: 100%;
+    }
+}
